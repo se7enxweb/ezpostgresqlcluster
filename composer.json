@@ -1,0 +1,20 @@
+{
+    "name": "se7enxweb/ezpostgresqlcluster",
+    "description": "eZ PostgreSQL is a database driver extension for eZ Publish Legacy, providing more functionality and better results than the default database driver MySQL in eZ Publish.",
+    "type": "ezpublish-legacy-extension",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "eZ Publish dev-team & eZ Community",
+            "homepage": "https://github.com/se7enxweb/ezpostgresqlcluster/contributors"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "se7enxweb/ezpublish-legacy-installer": "*",
+        "se7enxweb/ezpublish": ">=v6.0.0"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "ezpostgresqlcluster"
+    }
+}
